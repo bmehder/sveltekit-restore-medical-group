@@ -4,7 +4,7 @@ import adapter from '@sveltejs/adapter-netlify'
 const config = {
   kit: {
     adapter: adapter(),
-    // hydrate the <div id="svelte"> element in src/app.html
+    // hydrate the <div id="svelte"> element in src/app.htmL
     target: '#svelte',
   },
 }
