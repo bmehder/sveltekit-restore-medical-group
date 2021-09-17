@@ -11,6 +11,7 @@
   import PageTransition from '$lib/PageTransition.svelte'
   import Head from '$lib/Head.svelte'
   import Header from '$lib/Header.svelte'
+  import Bottom from '$lib/Bottom.svelte'
   import Footer from '$lib/Footer.svelte'
 
   export let key
@@ -18,8 +19,9 @@
 
 <Head />
 
-<Header background="darkorange" />
+<Header background="#111" />
 <PageTransition refresh={key}>
   <slot />
 </PageTransition>
-<Footer background="#111" color="white">Acme Company</Footer>
+<Bottom />
+<Footer background="#111" color="white">Restore Medical Group</Footer>

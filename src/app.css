@@ -11,6 +11,11 @@ html {
 body {
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(
+    to bottom right,
+    transparent,
+    rgba(0, 0, 0, 0.24)
+  );
 }
 
 #svelte {
@@ -23,12 +28,12 @@ body {
 
 a {
   color: darkorange;
+  text-decoration: none;
 }
 
 h1,
 h2,
 h3 {
-  font-size: 3rem;
   line-height: 1.5em;
   margin: 0.25em 0;
 }
@@ -42,13 +47,32 @@ h2 {
 }
 
 h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h4 {
   font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+h5 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }
 
 p {
   margin-bottom: 1rem;
   font-size: 1rem;
   line-height: 1.5em;
+}
+
+ul {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+li {
+  margin-bottom: 0.5rem;
 }
 
 .flex p {

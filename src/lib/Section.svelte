@@ -31,11 +31,11 @@
     max-width: 960px;
     margin: auto;
   }
-  .content-wrap {
+  /* .content-wrap {
     max-width: 960px;
     margin: auto;
     padding: 0 2em;
-  }
+  } */
   h3 {
     margin: 0 auto 1em;
     text-align: center;
@@ -43,9 +43,9 @@
     line-height: 1em;
     color: #227ad2;
   }
-  @media screen and (max-width: 640px) {
+  /* @media screen and (max-width: 640px) {
     .content-wrap {
       padding: 0 1em;
     }
-  }
+  } */
 </style>

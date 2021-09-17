@@ -11,8 +11,7 @@
 <footer style="height:{height};background:{background};color:{color};">
   <div>
     <p>
-      © {year}
-      <slot />. All rights reserved.
+      ©2021 Restore Medical Group is a DBA of Restore Osteo of Colorado, LLC
     </p>
     <p on:click={scrollToTop}>
       Back to Top <i class="fa fa-arrow-up" aria-hidden="true" />
@@ -25,7 +24,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 960px;
+    max-width: 1020px;
     margin: auto;
     padding: 2em;
   }
@@ -52,6 +51,12 @@
     }
     100% {
       transform: scale(1.25);
+    }
+  }
+  @media screen and (max-width: 600px) {
+    p {
+      max-width: 200px;
+      font-size: 12px;
     }
   }
 </style>
